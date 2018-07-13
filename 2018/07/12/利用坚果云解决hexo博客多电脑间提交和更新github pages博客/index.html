@@ -19,7 +19,7 @@
 <meta property="og:image" content="http://yoursite.com/2018/07/12/利用坚果云解决hexo博客多电脑间提交和更新github%20pages博客/assets/blogImg/img-1.png">
 <meta property="og:image" content="http://yoursite.com/2018/07/12/利用坚果云解决hexo博客多电脑间提交和更新github%20pages博客/assets/blogImg/img-2.png">
 <meta property="og:image" content="http://yoursite.com/2018/07/12/利用坚果云解决hexo博客多电脑间提交和更新github%20pages博客/assets/blogImg/img-3.png">
-<meta property="og:updated_time" content="2018-07-13T01:47:27.535Z">
+<meta property="og:updated_time" content="2018-07-13T01:47:58.312Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用坚果云解决hexo博客多电脑间提交和更新github pages博客">
 <meta name="twitter:description" content="前言本文只是给类似我这样的git新人做参考，对git比较熟悉的话可以无视了。由于自身对git的了解就不是特别深，还有就是众所周知的原因git上传下载比较慢，所以我这采用国内的坚果云来实现多PC间同步的问题，如有错误，欢迎各位指正。 场景单位和家里两PC，同时都想更新blog。而由于hexo没有后台，而且全部文件都在本地生成，所以如果公司电脑上发表了A文章后回家又写了篇B文章，在家里上传后你会发现只">
@@ -198,7 +198,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
 <p>接下来会出来下面的确认信息：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">The authenticity of host <span class="string">'github.com (207.97.227.239)'</span> can<span class="string">'t be established. </span></span><br><span class="line"><span class="string">RSA key fingerprint is 17:24:ac:a5:76:28:24:36:62:1b:36:4d:eb:df:a6:45.</span></span><br><span class="line"><span class="string"> Are you sure you want to continue connecting (yes/no)?</span></span><br></pre></td></tr></table></figure>
-<p>输入yes后回车。<br>然后显示如下信息则OK(其中的SeayXu是用户名)。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Hi SeayXu! You<span class="string">'ve successfully authenticated, </span></span><br><span class="line"><span class="string">but GitHub does not provide shell access.</span></span><br></pre></td></tr></table></figure></p>
+<p>输入yes后回车。<br>然后显示如下信息则OK(其中的Aiyx923是用户名)。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Hi Aiyx923! You<span class="string">'ve successfully authenticated, </span></span><br><span class="line"><span class="string">but GitHub does not provide shell access.</span></span><br></pre></td></tr></table></figure></p>
 <p>然后我们再来安装Hexo</p>
 <blockquote>
 <p>如果没有安装Nodejs，请先安装Nodejs，Nodejs官网；<br>以下操作是在blog文件夹中。<br>进入到blog文件夹：<br>切换到blog目录下</p>
